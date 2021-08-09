@@ -1,0 +1,79 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 9px 9px 34px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 34px 8px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 34px 8px rgba(0,0,0,0.75);
+    overflow-y: scroll;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header > img {
+    margin-right: 40px;
+    border-radius: 75px;
+    border: 1px solid black;
+
+}
+
+#pai {
+    display:flex;
+    align-items: center;
+}
+
+#pai > div {
+    width: 50%;
+}
+
+#filho_links > a{
+   margin-right: 15px;
+}
+
+@media screen and (max-width: 800px){
+   header {
+    flex-direction: column-reverse;
+   }
+
+   header > img{
+       margin: 0;
+   }
+
+   #pai {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   #filho_links > a{
+       margin-right: 0;
+   }
+    
+}
