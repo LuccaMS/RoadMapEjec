@@ -1,0 +1,17 @@
+
+body{
+    background-color:rgb(47, 61, 52);
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    height: 40%;
+    border-radius: 9px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-shadow: 9px 9px 34px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 34px 8px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 34px 8px rgba(0,0,0,0.75);
+}
