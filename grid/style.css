@@ -28,10 +28,18 @@ main {
 }
 
 aside{
-    background-color: lightcoral;
+    background-color: rgb(17, 14, 14);
     grid-area: a;
     padding: 10px;
 }
+
+.lista li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
 
 footer{
     background-color: red;

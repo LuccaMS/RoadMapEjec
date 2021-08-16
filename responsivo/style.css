@@ -1,0 +1,63 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: "h h"
+                         "m a"
+                         "f f"
+}
+
+html, body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: khaki;
+    text-align: center;
+}
+
+header{
+    background-color: aliceblue;
+    grid-area: h;
+}
+
+main{
+    grid-area: m;
+    background-color: aqua;
+}
+
+aside{
+    grid-area: a;
+    background-color: rgb(177, 20, 20);
+    height: 100%;
+
+}
+
+footer{
+    grid-area: f;
+    background-color: cornflowerblue;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.github{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
