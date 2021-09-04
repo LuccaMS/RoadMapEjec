@@ -34,7 +34,7 @@ function randomArray(length, max) {
     });
 }
 
-array = randomArray(10,25);
+array = randomArray(25,100000);
 
 for(let j = 0; j < array.length;j++)
 {

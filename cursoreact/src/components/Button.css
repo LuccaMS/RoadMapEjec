@@ -1,0 +1,17 @@
+.button {
+  background-color: chartreuse;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: #444;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background-color: cornflowerblue;
+  color: crimson;
+}
